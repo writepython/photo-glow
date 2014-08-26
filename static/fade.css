@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	background: #333;
+	text-align: center;
+}
+
+#header {
+	height: 30px;
+	color: white;
+	padding: 25px;
+}
+
+#photos {
+	width: 700px;
+	margin: 0 auto;
+	min-height: 300px;
+}
+
+#photos img {
+	margin: 25px;
+	border: 10px solid #eee;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+ 	-webkit-transition: opacity 1s linear;
+}	
+
+#photos img:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+ 	-webkit-transition: opacity 1s linear;
+}
